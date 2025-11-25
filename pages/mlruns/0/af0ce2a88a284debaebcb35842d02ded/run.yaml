@@ -1,0 +1,12 @@
+{
+  "run_id": "af0ce2a88a284debaebcb35842d02ded",
+  "status": "FINISHED",
+  "metrics": {
+    "accuracy": 0.9078,
+    "auc": 0.9314,
+    "recall": 0.7418,
+    "precision": 0.9747,
+    "f1_score": 0.8421,
+    "log_loss": 0.34
+  }
+}

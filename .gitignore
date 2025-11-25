@@ -1,0 +1,29 @@
+# -----------------------
+# Entorno virtual
+# -----------------------
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------
+# Sistema operativo
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Archivos de proyecto temporales
+# -----------------------
+*.log
+*.sqlite
+*.db
+
+# -----------------------
+# IDEs
+# -----------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

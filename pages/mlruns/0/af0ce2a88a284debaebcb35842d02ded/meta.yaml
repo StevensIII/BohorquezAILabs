@@ -1,0 +1,11 @@
+{
+  "run_uuid": "af0ce2a88a284debaebcb35842d02ded",
+  "run_id": "af0ce2a88a284debaebcb35842d02ded",
+  "status": "FINISHED",
+  "start_time": 1764038216055,
+  "end_time": 1764038216055,
+  "artifact_uri": "/mnt/data/mlruns_MLIA_simulated/mlruns/0/af0ce2a88a284debaebcb35842d02ded",
+  "tags": {
+    "mlflow.runName": "simulated_run"
+  }
+}

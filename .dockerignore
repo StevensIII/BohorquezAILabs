@@ -1,0 +1,43 @@
+# .dockerignore (raíz) — Build mínima para runtime de EcoVision
+# Mantén el contexto lo más pequeño posible: solo lo necesario para ejecutar Streamlit
+# Incluimos: main.py, src/data/**, src/models/**, requirements.txt y el logo
+# 1) Ignorar todo por defecto
+**
+# 2) Re-incluir lo necesario
+!main.py
+!requirements.txt
+!pyproject.toml
+!uv.lock
+!ecovision_logo.png
+# Código requerido
+!src/
+!src/data/
+!src/data/**
+!src/models/
+!src/models/**
+# Mantener la carpeta con métricas (sin pesos)
+!runs/EcoVision3/
+!runs/EcoVision3/**
+runs/EcoVision3/weights/
+runs/EcoVision/
+runs/EcoVision2/
+# Evitar que suba archivos grandes o innecesarios
+# Modelos YOLO locales que no deben ir en la imagen
+yolo11n.pt
+yolov8n.pt
+# 3) Aún ignorar cachés/artefactos dentro de src/
+src/**/__pycache__/
+src/**/*.pyc
+# 4) Mantener fuera del contexto todo lo demás (pesado o no necesario)
+.dvcignore
+.git/
+.gitignore
+.pytest_cache/
+.venv/
+__pycache__/
+# Archivos no esenciales para runtime
+LICENSE
+Makefile
+*.md
+*.sh
+*.bat

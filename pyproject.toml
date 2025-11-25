@@ -1,0 +1,20 @@
+[project]
+name = "bohorquezailabs"
+version = "0.1.0"
+description = "Página demo con dos ideas de ML (Libranzas + otra idea) usando Streamlit y MLflow"
+authors = [
+    { name = "Stevens Ricardo Bohorquez" }
+]
+requires-python = ">=3.10"
+
+dependencies = [
+    "streamlit",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "mlflow",
+    "lightgbm>=4.6.0",
+]
+
+[tool.uv]
+python = "3.10"
