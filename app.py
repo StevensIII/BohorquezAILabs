@@ -28,6 +28,7 @@ st.sidebar.markdown("""
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("© 2025 BohorquezAI Labs")
+st.sidebar.markdown("[🔗 Ver Código disponible del proyecto en GitHub](https://github.com/StevensIII/BohorquezAILabs)")
 
 st.title("📈 Bohorquez AI Labs")
 st.subheader("Demostrador de Inteligencia Artificial – MVP en 2 ideas")
