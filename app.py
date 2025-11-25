@@ -9,8 +9,20 @@ st.set_page_config(
 # -----------------------------
 # Sidebar informativo
 # -----------------------------
-st.sidebar.markdown("## 🧑‍💻 Funcionarios Comfenalco ")
-st.sidebar.markdown("---")
+st.sidebar.markdown("### 🧑‍💻 Funcionarios Comfenalco ")
+# st.sidebar.markdown("")
+
+# Mostrar imágenes de los funcionarios
+# st.sidebar.image("assets/s.jpg", caption="Stevens Bohórquez Ruiz", width=80)
+# st.sidebar.image("assets/d.jpg", caption="Daniela Bolívar Puello", width=80)
+# st.sidebar.image("assets/b.jpg", caption="Braulio Bohórquez Barraza", width=80)
+
+# Crear 3 columnas en la sidebar
+col1, col2, col3 = st.sidebar.columns(3)
+# Agregar las imágenes a cada columna
+col1.image("assets/s.jpg", caption="Stevens", width=60)
+col2.image("assets/d.jpg", caption="Daniela", width=60)
+col3.image("assets/b.jpg", caption="Braulio", width=60)
 
 st.sidebar.markdown("### 🔮 Idea 1: MLIA – (Machine Learning - AI) – Aprobaciones de Libranzas Comfenalco")
 st.sidebar.markdown("""
